@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node src/main.js",
+    "tokenize": "nodemon tests/lexer.test.js",
+    "parser": "nodemon tests/parser.test.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
